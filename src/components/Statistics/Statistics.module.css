@@ -1,0 +1,21 @@
+.statisticList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.statisticText {
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: brown;
+    background: #fffbd5;
+    background: -webkit-linear-gradient(to right, #eb5757, #000000);
+    background: linear-gradient(to right, #eb5757, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
